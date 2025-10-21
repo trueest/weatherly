@@ -1,6 +1,12 @@
-# Weather
+# Weatherly - Angular Weather App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.3.
+A modern weather application built with Angular that provides current weather conditions and forecasts.
+
+## Features
+- Current weather display
+- Weather forecast
+- Location search
+- Responsive design
 
 ## Development server
 
