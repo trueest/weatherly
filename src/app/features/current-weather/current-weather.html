@@ -1,0 +1,9 @@
+<div class="current-weather-section">
+  <div class="weather-content">
+    <div class="location">{{ weatherData.location.name }}</div>
+    <div class="temperature">{{ weatherData.current.temp_f }}°F</div>
+    <div class="condition">{{ weatherData.current.condition.text }}</div>
+    <div class="current-indicator">Currently</div>
+  </div>
+  <app-back-button (back)="onBackToSearch()"></app-back-button>
+</div>

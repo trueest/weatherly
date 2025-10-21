@@ -1,0 +1,49 @@
+.current-weather-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: 300px;
+  gap: 30px;
+}
+
+.weather-content {
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.location {
+  color: #888888;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.temperature {
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 1;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.condition {
+  color: #ffffff;
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.current-indicator {
+  color: #4A9EFF;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}

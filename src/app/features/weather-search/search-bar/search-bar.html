@@ -1,0 +1,19 @@
+<div class="search-container">
+  <input 
+    type="text" 
+    placeholder="Search Location" 
+    class="search-input"
+    aria-label="Search for a location"
+    autocomplete="off"
+    #searchInput
+    (keydown.enter)="onSearch()"
+  />
+  <button 
+    type="button" 
+    class="search-arrow"
+    (click)="onSearch()"
+    aria-label="Search"
+  >
+    →
+  </button>
+</div>
